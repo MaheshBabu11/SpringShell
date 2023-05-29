@@ -126,6 +126,8 @@ Alright, let’s take a look at the final folder structure that we have accompli
             return jokeClient.randomJoke().joke();
         }
     }
+    
+    
 
     package com.maheshbabu.springshell.commands.model;
     
@@ -141,6 +143,8 @@ Alright, let’s take a look at the final folder structure that we have accompli
         @GetExchange("/")
         JokeResponse randomJoke();
     }
+
+
 
     package com.maheshbabu.springshell;
     
